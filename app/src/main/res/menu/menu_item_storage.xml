@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.materialtabs.activity.StorageInfoActivity">
+    <item android:id="@+id/mn_drop_item"
+        android:title="Drop container"/>
+    <item android:id="@+id/mn_move_item"
+        android:title="Move storage another"/>
+    <item android:id="@+id/mn_add_item"
+        android:title="Add container"/>
+</menu>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="info.androidhive.materialtabs.fragments.UserInfoFragment">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_user"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_item_userinfo">
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_info"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textStyle="bold"
+                android:text="Họ tên: "/>
+            <TextView
+                android:id="@+id/txt_userinfo_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:textSize="@dimen/text_info"
+                android:text="Đinh Viêt Ưng"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_item_userinfo">
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_info"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textStyle="bold"
+                android:text="Ngày sinh: "/>
+            <TextView
+                android:id="@+id/txt_userinfo_ngaysinh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:textSize="@dimen/text_info"
+                android:text="14/04/1994"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_item_userinfo">
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="@dimen/text_info"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textStyle="bold"
+                android:text="Chức vụ: "/>
+            <TextView
+                android:id="@+id/txt_userinfo_chucvu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:textSize="@dimen/text_info"
+                android:text="Project manager"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_info"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Tiểu sử: "/>
+            <TextView
+                android:id="@+id/txt_userinfo_tieusu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_info"
+                android:text="@string/text_demo"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
